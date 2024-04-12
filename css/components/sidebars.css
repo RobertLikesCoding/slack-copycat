@@ -1,0 +1,61 @@
+.channels {
+  width: 75px;
+  background-color: #261C25;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    text-decoration: none;
+    color: #A299A1;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 0;
+  }
+
+  h2:hover {
+    color: white;
+  }
+
+  .active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+}
+
+/* NAV MENU */
+
+nav {
+  background-color: #4B3949;
+  width: 200px;
+  color: white;
+
+  .online-badge {
+    background-color: #1FE5BD;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+  }
+
+  #add {
+    color: white;
+  }
+
+  #add:hover {
+    color: pink;
+  }
+
+}
+
+.menu {
+  color: #A299A1;
+  display: inline-block;
+  padding-top: 0px;
+  cursor: pointer;
+}
+
+.menu:hover {
+  text-decoration: underline;
+  color: white;
+}

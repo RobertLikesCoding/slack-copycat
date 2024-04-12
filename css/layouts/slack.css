@@ -1,0 +1,16 @@
+/* TODO: slack layout */
+.content-container {
+  height: 100vh;
+}
+
+.chat-container {
+  /* position:relative; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.chat {
+  flex-grow: 1;
+  overflow: scroll;
+}
